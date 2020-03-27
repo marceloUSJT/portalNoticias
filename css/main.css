@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #e61c22;
+    padding: 20px 0;
+}
+
+.containerHeader {
+    width: 980px;
+    margin: auto;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+}
+
+.subtitulo {
+    width: 100%;
+    background-color: #b5161a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.containerNoticia {
+    width: 980px;
+    margin: 70px auto;;
+}
+
+#titulo {
+    font-size: 38pt;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.dataPublicacao {
+    font-size: 12pt;
+    margin: 25px 0;
+    color: #a1a1a1;
+}
+
+hr {
+    margin-bottom: 25px;
+    color: #a1a1a1;
+}
+
+.paragrafoNoticia {
+    font-size: 15pt;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.negrito {
+    font-weight: bold;
+    font-size: 17pt;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #e61c22;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    margin: 50px 0px 10px 0px;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    border: 1px solid #e61c22;
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+#btnEnviar{
+    padding: 10px;
+    border: 1px solid #e61c22;
+    border-radius: 2px;
+    background-color: white;
+    font-size: 14pt;
+}
+
+#btnEnviar:hover{
+    background-color: #e61c22;
+    color: white;
+}
